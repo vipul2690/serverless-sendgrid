@@ -1,0 +1,25 @@
+{
+  "name": "sendgridtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-source-map-support": "^2.1.1",
+    "serverless-webpack": "^5.3.1",
+    "webpack": "^4.39.3",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "source-map-support": "^0.5.13"
+  }
+}
